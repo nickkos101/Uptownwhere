@@ -1,0 +1,33 @@
+@media (max-height: 775px) {
+
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+.fold .two-thirds {width: 100%;}
+.third.fillbox {width: 100%;}
+.fillbox:before, .fillbox:after {height: 0; width: 0; display: none;}
+.slick-slider { margin-bottom: 0px; } 
+.m-half {width: 50%; display: inline-block;}
+.m-full {width: 100%; }
+}
+
+@media (max-width: 850px) {
+header.responsive { display: block; }
+header {display: none;}
+.responsive li.action-menu {display: none;}
+.responsive li.action-menu.active { position: absolute; width: 142px; max-width: 100%; background: #fff; padding: 15px; border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; display: block; right: 0; }
+header.responsive nav ul li { line-height: 64px; display: inline-block; vertical-align: bottom; padding: 0 15px; font-weight: 100; font-size: 20px; text-transform: lowercase; }
+.action-menu {cursor: pointer;}
+}
+
+@media (max-width: 450px) {
+header .logo {font-size: 20px;}
+}
+
+@media (max-width: 330px) {
+header .logo {font-size: 18px;}
+}

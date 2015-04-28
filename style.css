@@ -1,0 +1,70 @@
+/*
+Theme Name: Uptown Where Refined
+Theme URI: http://uptownwhere.com
+Description: A custom, responsive theme created for Uptown Where by the Inspyre group in San Diego, CA. A highly dynamic blog platform.
+Author: the Inspyre group
+Version: 1.0
+Tags: Responsive, Custom
+*/
+
+* {box-sizing:border-box}
+body {  background-color: #fff; color: #333;}
+img {max-width: 100%; height: auto;}
+/* Typography */
+
+h1,h2,h3,h4,h5,h6 {font-family: 'Open Sans', sans-serif; font-weight: 300;}
+p,label,blockquote,input,select,textarea,li {font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.6; }
+
+ul {margin: 10px 0px 20px;}
+
+table {width: 100%; text-align: left; margin:15px 0px; font-size: 14px;}
+table a {font-size: 14px;}
+thead tr:nth-child(odd) {background-color: transparent; border:none;}
+tr:nth-child(odd) {background: #fff; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;}
+td,th {padding: 10px 5px;}
+
+a {text-decoration: none; color:#985E7A; font-family: 'Open Sans', sans-serif;}
+
+h2 {font-size: 28px; font-weight:normal; margin-top: 0px;}
+h3 { font-size: 38px; margin: 15px 0; font-weight: 300;}
+h4 {font-size: 24px; font-weight:bold; margin:0px;}
+h5 {font-size:20px; font-weight: normal; margin:0px; letter-spacing:0.01em;}
+h6 {font-size: 22px; font-weight: normal; margin-top:0px; margin-bottom: 5px;}
+
+/* Form Elements */
+
+button, .btn, input[type=submit], .button {    font-size: 21px;  }
+input[type=text], input[type=password], input[type=number], input[type=email], textarea {border-radius:8px; background-color: #fff; padding:5px 10px; border:1px solid #c7c7c7; resize:none;}
+
+hr {margin:0px; display: block; padding:0px; border:none; border-top:1px dashed #c7c7c7; background: none;}
+.color { color: #985E7A; font-style: normal; font-family: 'Open Sans', sans-serif;}
+span.black { color: #5a5a5a;}
+iframe {margin: 0px;}
+
+/* Nicks Column System 3/3/2015 */
+
+.col-wrap {font-size:0; box-sizing:border-box;}
+.column {box-sizing:border-box; display: inline-block; vertical-align: top;}
+
+.talignright {text-align: right;}
+.taligncenter {text-align: center;}
+.talignleft {text-align: left;}
+
+.alignleft {float: left;}
+.alignright {float: right;}
+
+img.alignleft {padding-right: 15px;}
+img.alignright {padding-left: 15px;}
+
+.spacer {padding: 3%;}
+
+.full {width: 100%;}
+.five-sixths {width: 83.333%;}
+.four-fifths {width: 80%;}
+.three-fourths {width: 75%;}
+.two-thirds {width:66.666%;}
+.half {width: 50%;}
+.third {width: 33.333%;}
+.fourth {width: 25%;}
+.fifth {width: 20%;}
+.sixth {width: 16.666%;}
